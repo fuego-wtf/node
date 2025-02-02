@@ -1,0 +1,15 @@
+{
+  "entryPoints": ["src/index.ts"],
+  "out": "docs",
+  "name": "Agentic SDK Documentation",
+  "theme": "default",
+  "excludePrivate": true,
+  "excludeProtected": true,
+  "excludeExternals": true,
+  "includeVersion": true,
+  "categorizeByGroup": true,
+  "categoryOrder": ["Configuration", "Core", "Encryption", "Events", "*"],
+  "readme": "README.md",
+  "plugin": ["typedoc-plugin-markdown"],
+  "githubPages": true
+}
